@@ -1,5 +1,6 @@
 on:
-  push:
+  schedule:
+    - cron: '51 18 * * *'
 
 jobs:
   pull-request:
